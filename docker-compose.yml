@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  node:
+    container_name: praktyki-node
+    image: node:19.0-alpine3.15
+    working_dir: /application
+    user: ${CURRENT_UID:-1000}
+    volumes:
+      - .:/application
+    restart: unless-stopped
+    tty: true
+    ports:
+      - ${EXTERNAL_NODE_PORT:-3000}:3000
