@@ -16,29 +16,29 @@ docker-compose up -d
 ### Installation
 
 ```
-npm install
+docker-compose exec node npm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-npm run dev
+docker-compose exec node npm run dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-npm run build
+docker-compose exec node npm run build
 ```
 
 ### Lints files
 
 ```
-npm run lint
+docker-compose exec node npm run lint
 ```
 
 ### Available containers
 
 | service | container name | default external port |
-| ------- |----------------| --------------------- |
-| node    | praktyki-node  | 8080                  |
+| ------- |----------------|-----------------------|
+| node    | praktyki-node  | 3000                  |

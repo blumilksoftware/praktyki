@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    scrollRestoration: true,
-  },
+    scrollRestoration: true
+  }
 }
 
 module.exports = nextConfig
