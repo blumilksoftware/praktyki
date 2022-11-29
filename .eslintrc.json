@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "never"],
+    "eol-last": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
