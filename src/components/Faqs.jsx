@@ -6,44 +6,44 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Co muszę umieć, aby dostać się na praktyki?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Jeśli umiesz programować w PHP, znasz paradygmat obiektowy, GitHub nie jest Ci obcy, praca w zespole nie sprawia Ci problemu i chcesz się rozwijać - to tyle nam wystarczy - na początek ;) Reszty Cię nauczymy.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Jestem z innej uczelni - czy mogę aplikować?',
+      answer: 'Oczywiście, że tak! Jesteśmy otwarci na współpracę.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Jak wygląda proces rekrutacji?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
-    },
-  ],
-  [
-    {
-      question: 'What was that testimonial about tax fraud all about?',
-      answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
-    },
-    {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
-      answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
-    },
-    {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Wyślij nam kilka słów o sobie, załącz CV oraz link do GitHuba. Jeżeli wszystko będzie w porządku, to zaprosimy Cię na krótką rozmowę - od razu dowiesz się, czy zaczynasz praktyki czy niestety musisz szukać gdzieś indziej.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Co będę robić na praktykach?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Każda grupa praktykantów realizuje ciekawy projekt zespołowy - zazwyczaj my wymyślamy temat, ale jeśli masz pomysły, to śmiało możesz coś zaproponować.',
+    },
+    {
+      question:
+        'Co zyskam przychodząc na praktyki do Blumilka?',
+      answer:
+        'Przede wszystkim code review od profesjonalistów - wierzymy, że to jest najlepszy sposób, aby podnieść swoje umiejętności. Cotygodniowe lekcje z native-speakerem z Anglii, możliwość napisania do kogokolwiek z firmy w razie problemów, zdobywanie wiedzy i praca w rzeczywistym środowisku pracy - to możemy zaoferować.',
+    },
+    {
+      question:
+        'Kiedy odbywają się praktyki?',
+      answer:
+        'Zazwyczaj praktyki prowadzimy w okresie wakacyjnym.',
+    },
+  ],
+  [
+    {
+      question: 'Czy mogę pracować zdalnie?',
+      answer:
+        'Preferujemy pracę w biurze - dzięki temu masz okazję bliżej nas poznać, a my Ciebie. Poza tym, naszym zdaniem więcej się nauczysz będąc na miejscu.',
     },
     {
       question: 'Can we expect more inventory features?',
@@ -78,11 +78,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Najczęściej zadawane pytania
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Jeśli nie możesz znaleźć tego, czego szukasz, napisz do nas na career@blumilk.pl.
           </p>
         </div>
         <ul
