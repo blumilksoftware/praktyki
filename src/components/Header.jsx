@@ -95,8 +95,8 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">O nas</NavLink>
-              <NavLink href="#secondary-features">Projekty</NavLink>
+              <NavLink href="#features">Projekty</NavLink>
+              <NavLink href="#secondary-features">O nas</NavLink>
               <NavLink href="#testimonials">Opinie</NavLink>
             </div>
           </div>

@@ -5,28 +5,28 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/project-1.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
+import screenshotMeetup from '@/images/screenshots/project-2.png'
+import screenshotInternships from '@/images/screenshots/project-1.png'
+import screenshotLaravelPolandMeetup from '@/images/screenshots/project-3.png'
 
 const features = [
   {
-    title: 'Kadra',
+    title: 'Internships',
     description:
-      'Nasz zespół tworzą wykwalifikowani specjaliści, posiadający wieloletnie doświadczenie w branży.',
-    image: screenshotPayroll,
+      'Ten kto szukał praktyk studenckich ten wie, że jest to żmudne i trudne - ta aplikacja ma na celu przejrzyste pokazanie, gdzie są praktyki, a firmy mogą zakładać konta i dodawać oferty praktyk.',
+    image: screenshotInternships,
   },
   {
-    title: 'Collegium Witelona Uczelnia Państwowa',
+    title: 'Meetup',
     description:
-      'Część z naszych inżynierów pracuje jako wykładowcy przedmiotów informatycznych. Dodatkowo, wspólnie pracujemy nad rozwojem programów studiów na kierunkach informatyka i inżynieria produkcji i logistyki.',
-    image: screenshotExpenses,
+      'Meetup to biblioteka, która umożliwia użytkownikom o różnym poziomie technicznym stworzenie aplikacji do organizacji własnych spotkań. Dla zaawansowanych użytkowników, którzy chcą rozszerzyć funkcjonalność biblioteki, istnieje możliwość nadpisywania ustawień i samodzielnego rozszerzania jej możliwości.',
+    image: screenshotMeetup,
   },
   {
-    title: 'Lorem ipsum',
+    title: 'Laravel Poland Meetup',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Projekt, który nie jest tylko sztuką dla sztuki - strona internetowa dla najbardziej popularnego meetupu o PHP i Laravelu - brzmi jak wyzwanie, któremu nasi praktykanci podołali w 100% ;)',
+    image: screenshotLaravelPolandMeetup,
   },
 ]
 
@@ -65,10 +65,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            O nas
+            Projekty realizowane przez naszych praktykantów
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Blumilk to firma, która ma korzenie w środowisku akademickim. W październiku 2020 roku dr inż. Piotr Nadybski, prof. CWUP oraz mgr inż. Krzysztof Rewak założyli software house. Wcześniej razem pracowali na uczelni oraz przy kilku projektach informatycznych.
+            Chcemy pokazać, jakie zadania i wyzwania stawiamy przed naszymi praktykantami oraz jakie umiejętności zdobywają dzięki pracy w naszej firmie.
           </p>
         </div>
         <Tab.Group

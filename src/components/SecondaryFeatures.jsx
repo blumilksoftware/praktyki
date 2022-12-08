@@ -1,98 +1,33 @@
-import { useId } from 'react'
 import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/project-3.png'
-import screenshotInventory from '@/images/screenshots/project-1.png'
-import screenshotProfitLoss from '@/images/screenshots/project-2.png'
+import avatarImage1 from '@/images/avatars/avatar-6.png'
+import avatarImage2 from '@/images/avatars/avatar-6.png'
+import avatarImage3 from '@/images/avatars/avatar-6.png'
 
 const features = [
   {
-    name: 'Meetup',
-    summary: 'Tworzenie własnego meetupu',
+    name: 'dr inż., prof CWUP',
+    summary: 'Piotr Nadybski',
     description:
-      'Meetup to biblioteka, która umożliwia użytkownikom o różnym poziomie technicznym stworzenie aplikacji do organizacji własnych spotkań. Dla zaawansowanych użytkowników, którzy chcą rozszerzyć funkcjonalność biblioteki, istnieje możliwość nadpisywania ustawień i samodzielnego rozszerzania jej możliwości.',
-    image: screenshotProfitLoss,
-    icon: function ReportingIcon() {
-      let id = useId()
-      return (
-        <>
-          <defs>
-            <linearGradient
-              id={id}
-              x1="11.5"
-              y1={18}
-              x2={36}
-              y2="15.5"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset=".194" stopColor="#fff" />
-              <stop offset={1} stopColor="#6692F1" />
-            </linearGradient>
-          </defs>
-          <path
-            d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
-            stroke={`url(#${id})`}
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </>
-      )
-    },
+      'Lorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit ametLorem ipsum sit ametLorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit amet',
+    image: avatarImage1,
   },
   {
-    name: 'Internships',
-    summary:
-      'Szukanie praktyk nigdy nie było takie proste',
+    name: 'mgr inż.',
+    summary: 'Krzysztof Rewak',
     description:
-      'Ten kto szukał praktyk studenckich ten wie, że jest to żmudne i trudne - ta aplikacja ma na celu przejrzyste pokazanie, gdzie są praktyki, a firmy mogą zakładać konta i dodawać oferty praktyk.',
-    image: screenshotInventory,
-    icon: function InventoryIcon() {
-      return (
-        <>
-          <path
-            opacity=".5"
-            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            opacity=".3"
-            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-        </>
-      )
-    },
+      'Lorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit ametLorem ipsum sit ametLorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit amet',
+    image: avatarImage2,
   },
   {
-    name: 'Laravel Poland Meetup',
-    summary:
-      'Strona internetowa dla Laravel Poland Meetup',
+    name: 'mgr inż.',
+    summary: 'Marcin Tracz',
     description:
-      'Projekt, który nie jest tylko sztuką dla sztuki - strona internetowa dla najbardziej popularnego meetupu o PHP i Laravelu - brzmi jak wyzwanie, któremu nasi praktykanci podołali w 100% ;)',
-    image: screenshotContacts,
-    icon: function ContactsIcon() {
-      return (
-        <>
-          <path
-            opacity=".5"
-            d="M25.778 25.778c.39.39 1.027.393 1.384-.028A11.952 11.952 0 0 0 30 18c0-6.627-5.373-12-12-12S6 11.373 6 18c0 2.954 1.067 5.659 2.838 7.75.357.421.993.419 1.384.028.39-.39.386-1.02.036-1.448A9.959 9.959 0 0 1 8 18c0-5.523 4.477-10 10-10s10 4.477 10 10a9.959 9.959 0 0 1-2.258 6.33c-.35.427-.354 1.058.036 1.448Z"
-            fill="#fff"
-          />
-          <path
-            d="M12 28.395V28a6 6 0 0 1 12 0v.395A11.945 11.945 0 0 1 18 30c-2.186 0-4.235-.584-6-1.605ZM21 16.5c0-1.933-.5-3.5-3-3.5s-3 1.567-3 3.5 1.343 3.5 3 3.5 3-1.567 3-3.5Z"
-            fill="#fff"
-          />
-        </>
-      )
-    },
+      'Lorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit ametLorem ipsum sit ametLorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit amet',
+    image: avatarImage3,
   },
 ]
 
@@ -104,13 +39,15 @@ function Feature({ feature, isActive, className, ...props }) {
     >
       <div
         className={clsx(
-          'w-9 rounded-lg',
+          'w-40 rounded-lg',
           isActive ? 'bg-blue-600' : 'bg-slate-500'
         )}
       >
-        <svg aria-hidden="true" className="h-9 w-9" fill="none">
-          <feature.icon />
-        </svg>
+        <Image
+          className="w-full"
+          src={feature.image}
+          alt=""
+        />
       </div>
       <h3
         className={clsx(
@@ -174,32 +111,6 @@ function FeaturesDesktop() {
               />
             ))}
           </Tab.List>
-          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
-            <div className="-mx-5 flex">
-              {features.map((feature, featureIndex) => (
-                <Tab.Panel
-                  static
-                  key={feature.name}
-                  className={clsx(
-                    'px-5 transition duration-500 ease-in-out [&:not(:focus-visible)]:focus:outline-none',
-                    featureIndex !== selectedIndex && 'opacity-60'
-                  )}
-                  style={{ transform: `translateX(-${selectedIndex * 100}%)` }}
-                  aria-hidden={featureIndex !== selectedIndex}
-                >
-                  <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
-                    <Image
-                      className="w-full"
-                      src={feature.image}
-                      alt=""
-                      sizes="52.75rem"
-                    />
-                  </div>
-                </Tab.Panel>
-              ))}
-            </div>
-            <div className="pointer-events-none absolute inset-0 rounded-4xl ring-1 ring-inset ring-slate-900/10" />
-          </Tab.Panels>
         </>
       )}
     </Tab.Group>
@@ -216,10 +127,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Projekty realizowane przez naszych praktykantów
+            O nas
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Chcemy pokazać, jakie zadania i wyzwania stawiamy przed naszymi praktykantami oraz jakie umiejętności zdobywają dzięki pracy w naszej firmie.
+            Poznaj nas bliżej ;)
           </p>
         </div>
         <FeaturesMobile />
