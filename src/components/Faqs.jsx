@@ -61,7 +61,7 @@ export function Faqs() {
   return (
     <section
       id="faq"
-      aria-labelledby="faq-title"
+      aria-labelledby="faq"
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
       <Image
