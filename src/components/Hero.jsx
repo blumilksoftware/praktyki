@@ -5,8 +5,7 @@ import { Container } from '@/components/Container'
 import logoCWUP from '@/images/logos/cwup.png'
 import logoCDV from '@/images/logos/cdv.svg'
 import logoWSB from '@/images/logos/wsb.png'
-import Link from 'next/link'
-
+import logoTA from '@/images/logos/ta.png'
 export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
@@ -53,6 +52,7 @@ export function Hero() {
               { name: 'CWUP', logo: logoCWUP },
               { name: 'WSB', logo: logoWSB },
               { name: 'CDV', logo: logoCDV },
+              { name: 'Ta', logo: logoTA },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>

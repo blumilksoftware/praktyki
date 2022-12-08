@@ -4,16 +4,16 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotContacts from '@/images/screenshots/project-3.png'
+import screenshotInventory from '@/images/screenshots/project-1.png'
+import screenshotProfitLoss from '@/images/screenshots/project-2.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Meetup',
+    summary: 'Tworzenie własnego meetupu',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Meetup to biblioteka, która umożliwia użytkownikom o różnym poziomie technicznym stworzenie aplikacji do organizacji własnych spotkań. Dla zaawansowanych użytkowników, którzy chcą rozszerzyć funkcjonalność biblioteki, istnieje możliwość nadpisywania ustawień i samodzielnego rozszerzania jej możliwości.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -44,11 +44,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Internships',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Szukanie praktyk nigdy nie było takie proste',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Ten kto szukał praktyk studenckich ten wie, że jest to żmudne i trudne - ta aplikacja ma na celu przejrzyste pokazanie, gdzie są praktyki, a firmy mogą zakładać konta i dodawać oferty praktyk.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -72,11 +72,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Laravel Poland Meetup',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Strona internetowa dla Laravel Poland Meetup',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Projekt, który nie jest tylko sztuką dla sztuki - strona internetowa dla najbardziej popularnego meetupu o PHP i Laravelu - brzmi jak wyzwanie, któremu nasi praktykanci podołali w 100% ;)',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -216,11 +216,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Projekty realizowane przez naszych praktykantów
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Chcemy pokazać, jakie zadania i wyzwania stawiamy przed naszymi praktykantami oraz jakie umiejętności zdobywają dzięki pracy w naszej firmie.
           </p>
         </div>
         <FeaturesMobile />

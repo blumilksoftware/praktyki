@@ -5,32 +5,26 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
+import screenshotExpenses from '@/images/screenshots/project-1.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Kadra',
     description:
-      'Keep track of everyone`s salaries and whether or not they`ve been paid. Direct deposit not supported.',
+      'Nasz zespół tworzą wykwalifikowani specjaliści, posiadający wieloletnie doświadczenie w branży.',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Collegium Witelona Uczelnia Państwowa',
     description:
-      'All of your receipts organized into one place, as long as you don`t mind typing in the data by hand.',
+      'Część z naszych inżynierów pracuje jako wykładowcy przedmiotów informatycznych. Dodatkowo, wspólnie pracujemy nad rozwojem programów studiów na kierunkach informatyka i inżynieria produkcji i logistyki.',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
-    description:
-      'We only sell our software to companies who don`t deal with VAT at all, so technically we do all the VAT stuff they need.',
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
+    title: 'Lorem ipsum',
     description:
       'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
     image: screenshotReporting,
@@ -58,7 +52,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="o nas"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
@@ -72,11 +66,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            O nas
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Blumilk to firma, która ma korzenie w środowisku akademickim. W październiku 2020 roku dr inż. Piotr Nadybski, prof. CWUP oraz mgr inż. Krzysztof Rewak założyli software house. Wcześniej razem pracowali na uczelni oraz przy kilku projektach informatycznych.
           </p>
         </div>
         <Tab.Group

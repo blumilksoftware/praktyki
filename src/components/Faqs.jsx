@@ -30,13 +30,11 @@ const faqs = [
       question:
         'Co zyskam przychodząc na praktyki do Blumilka?',
       answer:
-        'Przede wszystkim code review od profesjonalistów - wierzymy, że to jest najlepszy sposób, aby podnieść swoje umiejętności. Cotygodniowe lekcje z native-speakerem z Anglii, możliwość napisania do kogokolwiek z firmy w razie problemów, zdobywanie wiedzy i praca w rzeczywistym środowisku pracy - to możemy zaoferować.',
+        'Przede wszystkim code review od profesjonalistów - wierzymy, że to jest najlepszy sposób, aby podnieść swoje umiejętności. Cotygodniowe lekcje z native speakerem z Anglii, pomoc w rozwiązywaniu problemów natury programistycznej, zdobywanie wiedzy i poznanie realiów pracy programisty - to możemy zaoferować.',
     },
     {
-      question:
-        'Kiedy odbywają się praktyki?',
-      answer:
-        'Zazwyczaj praktyki prowadzimy w okresie wakacyjnym.',
+      question: 'Czego się nauczę?',
+      answer: 'Na pewno lepiej poznasz PHP oraz Laravela. Co więcej, dowiesz się jak zamknąć projekt w kontenerach (Docker), poznasz framework do CSSa - Tailwind CSS i framework JavaScript - Vue.js oraz zrozumiesz dlaczego pisanie testów jest ważne.',
     },
   ],
   [
@@ -46,13 +44,15 @@ const faqs = [
         'Preferujemy pracę w biurze - dzięki temu masz okazję bliżej nas poznać, a my Ciebie. Poza tym, naszym zdaniem więcej się nauczysz będąc na miejscu.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Kiedy mogę aplikować na praktyki?',
+      answer:
+        'Rekrutacja jest otwarta przez cały rok.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question:
+        'Kiedy odbywają się praktyki i ile trwają?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Zazwyczaj praktyki prowadzimy w okresie wakacyjnym i trwają od 6 do 8 tygodni, w zależności od potrzeb i możliwości obu stron.',
     },
   ],
 ]
