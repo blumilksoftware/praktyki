@@ -8,7 +8,6 @@ import backgroundImage from '@/images/background-features.jpg'
 import screenshotExpenses from '@/images/screenshots/project-1.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
