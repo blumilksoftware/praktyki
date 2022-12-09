@@ -6,7 +6,7 @@ import avatarImage2 from '@/images/avatars/avatar-2.jpeg'
 import avatarImage3 from '@/images/avatars/avatar-3.jpg'
 import avatarImage4 from '@/images/avatars/avatar-4.jpeg'
 import avatarImage5 from '@/images/avatars/avatar-5.jpeg'
-import avatarImage6 from '@/images/avatars/avatar-6.png'
+import avatarImage6 from '@/images/avatars/avatar-6.jpeg'
 
 const testimonials = [
   [
@@ -54,7 +54,7 @@ const testimonials = [
       content:
         'Moje praktyki w firmie programistycznej były bardzo intensywne i wymagające. Musiałam pracować w grupie i nauczyć się współpracować z innymi. Poznałam nowe narzędzia oraz technologie.',
       author: {
-        name: 'Imię Nazwisko',
+        name: 'Paulina Lencka',
         role: 'lipiec 2021',
         image: avatarImage6,
       },
