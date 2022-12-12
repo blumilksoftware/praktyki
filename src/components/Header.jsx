@@ -4,8 +4,9 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
+import Logo from '@/images/logos/blumilk.png'
 import { NavLink } from '@/components/NavLink'
+import Image from 'next/image'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -92,8 +93,8 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Strona główna">
-              <Logo className="h-10 w-auto" />
+            <Link href="#" aria-label="Strona główna" className="font-defaultSans">
+              <Image className="mr-3 h-12 w-auto"  src={Logo} alt="Blumilk logo" unoptimized />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Projekty</NavLink>
