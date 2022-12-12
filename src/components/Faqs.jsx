@@ -6,53 +6,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Co muszę umieć, aby dostać się na praktyki?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Jeśli umiesz programować w PHP, znasz paradygmat obiektowy, GitHub nie jest Ci obcy, praca w zespole nie sprawia Ci problemu i chcesz się rozwijać - to tyle nam wystarczy - na początek ;) Reszty Cię nauczymy.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Jestem z innej uczelni - czy mogę aplikować?',
+      answer: 'Oczywiście, że tak! Jesteśmy otwarci na współpracę.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Jak wygląda proces rekrutacji?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Wyślij nam kilka słów o sobie, załącz CV oraz link do GitHuba. Jeżeli wszystko będzie w porządku, to zaprosimy Cię na krótką rozmowę - od razu dowiesz się, czy zaczynasz praktyki czy niestety musisz szukać gdzieś indziej.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Co będę robić na praktykach?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Każda grupa praktykantów realizuje ciekawy projekt zespołowy - zazwyczaj my wymyślamy temat, ale jeśli masz pomysły, to śmiało możesz coś zaproponować.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Co zyskam przychodząc na praktyki do Blumilka?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Przede wszystkim code review od profesjonalistów - wierzymy, że to jest najlepszy sposób, aby podnieść swoje umiejętności. Cotygodniowe lekcje z native speakerem z Anglii, pomoc w rozwiązywaniu problemów natury programistycznej, zdobywanie wiedzy i poznanie realiów pracy programisty - to możemy zaoferować.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+      question: 'Czego się nauczę?',
+      answer: 'Na pewno lepiej poznasz PHP oraz Laravela. Co więcej, dowiesz się jak zamknąć projekt w kontenerach (Docker), poznasz framework do CSSa - Tailwind CSS i framework JavaScript - Vue.js oraz zrozumiesz dlaczego pisanie testów jest ważne.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Czy mogę pracować zdalnie?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'Preferujemy pracę w biurze - dzięki temu masz okazję bliżej nas poznać, a my Ciebie. Poza tym, naszym zdaniem więcej się nauczysz będąc na miejscu.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Kiedy mogę aplikować na praktyki?',
+      answer:
+        'Rekrutacja jest otwarta przez cały rok.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question:
+        'Kiedy odbywają się praktyki i ile trwają?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Zazwyczaj praktyki prowadzimy w okresie wakacyjnym i trwają od 6 do 8 tygodni, w zależności od potrzeb i możliwości obu stron.',
     },
   ],
 ]
@@ -61,7 +61,7 @@ export function Faqs() {
   return (
     <section
       id="faq"
-      aria-labelledby="faq-title"
+      aria-labelledby="faq"
       className="relative overflow-hidden bg-slate-50 py-20 sm:py-32"
     >
       <Image
@@ -78,11 +78,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Najczęściej zadawane pytania
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Jeśli nie możesz znaleźć tego, czego szukasz, napisz do nas na career@blumilk.pl.
           </p>
         </div>
         <ul

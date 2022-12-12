@@ -12,18 +12,18 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#features">Projekty</NavLink>
+              <NavLink href="#secondary-features">O nas</NavLink>
+              <NavLink href="#testimonials">Opinie</NavLink>
             </div>
           </nav>
         </div>
         <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <Link
-              href="https://twitter.com"
+              href="https://twitter.com/blumilksoftware"
               className="group"
-              aria-label="TaxPal on Twitter"
+              aria-label="Blumilk - Twitter"
             >
               <svg
                 aria-hidden="true"
@@ -33,9 +33,9 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://github.com"
+              href="https://github.com/blumilksoftware"
               className="group"
-              aria-label="TaxPal on GitHub"
+              aria-label="Blumilk - GitHub"
             >
               <svg
                 aria-hidden="true"
@@ -46,8 +46,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} TaxPal. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Blumilk
           </p>
         </div>
       </Container>

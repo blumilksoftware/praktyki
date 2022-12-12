@@ -5,35 +5,28 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotMeetup from '@/images/screenshots/project-2.png'
+import screenshotInternships from '@/images/screenshots/project-1.png'
+import screenshotLaravelPolandMeetup from '@/images/screenshots/project-3.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Internships',
     description:
-      'Keep track of everyone`s salaries and whether or not they`ve been paid. Direct deposit not supported.',
-    image: screenshotPayroll,
+      'Ten kto szukał praktyk studenckich ten wie, że jest to żmudne i trudne - ta aplikacja ma na celu przejrzyste pokazanie, gdzie są praktyki, a firmy mogą zakładać konta i dodawać oferty praktyk.',
+    image: screenshotInternships,
   },
   {
-    title: 'Claim expenses',
+    title: 'Meetup',
     description:
-      'All of your receipts organized into one place, as long as you don`t mind typing in the data by hand.',
-    image: screenshotExpenses,
+      'Meetup to biblioteka, która umożliwia użytkownikom o różnym poziomie technicznym stworzenie aplikacji do organizacji własnych spotkań. Dla zaawansowanych użytkowników, którzy chcą rozszerzyć funkcjonalność biblioteki, istnieje możliwość nadpisywania ustawień i samodzielnego rozszerzania jej możliwości.',
+    image: screenshotMeetup,
   },
   {
-    title: 'VAT handling',
+    title: 'Laravel Poland Meetup',
     description:
-      'We only sell our software to companies who don`t deal with VAT at all, so technically we do all the VAT stuff they need.',
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Projekt, który nie jest tylko sztuką dla sztuki - strona internetowa dla najbardziej popularnego meetupu o PHP i Laravelu - brzmi jak wyzwanie, któremu nasi praktykanci podołali w 100% ;)',
+    image: screenshotLaravelPolandMeetup,
   },
 ]
 
@@ -58,7 +51,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="o nas"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
@@ -72,11 +65,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Projekty realizowane przez naszych praktykantów
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Chcemy pokazać, jakie zadania i wyzwania stawiamy przed naszymi praktykantami oraz jakie umiejętności zdobywają dzięki pracy w naszej firmie.
           </p>
         </div>
         <Tab.Group

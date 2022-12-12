@@ -47,7 +47,7 @@ function MobileNavigation() {
     <Popover>
       <Popover.Button
         className="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
-        aria-label="Toggle Navigation"
+        aria-label="Przełącz nawigację"
       >
         {({ open }) => <MobileNavIcon open={open} />}
       </Popover.Button>
@@ -76,8 +76,9 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
+            <MobileNavLink href="#features">Projekty</MobileNavLink>
+            <MobileNavLink href="#secondary-features">O nas</MobileNavLink>
+            <MobileNavLink href="#testimonials">Opinie</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -91,12 +92,13 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
+            <Link href="#" aria-label="Strona główna">
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
+              <NavLink href="#features">Projekty</NavLink>
+              <NavLink href="#secondary-features">O nas</NavLink>
+              <NavLink href="#testimonials">Opinie</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

@@ -21,14 +21,13 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+            Porozmawiajmy o praktykach
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
+            Napisz e-mail do nas - wystarczy kilka słów o Tobie, CV i link do GitHuba, a na pewno się do Ciebie odezwiemy.
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
+          <Button href="mailto:career@blumilk.pl" color="white" className="mt-10">
+            career@blumilk.pl
           </Button>
         </div>
       </Container>

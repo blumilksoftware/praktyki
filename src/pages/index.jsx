@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Praktyki</title>
+        <title>Praktyki w Blumilku</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Zdobądź cenne doświadczenie zawodowe jako praktykant w Blumilku."
         />
       </Head>
       <Header />
