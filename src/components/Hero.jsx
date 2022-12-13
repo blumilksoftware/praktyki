@@ -58,11 +58,11 @@ export function Hero() {
             <li key={groupIndex}>
               <ul
                 role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
+                className="flex flex-col items-center gap-y-8 xl:flex-row xl:gap-x-12 xl:gap-y-0"
               >
                 {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
+                  <li key={company.name}>
+                    <Image className="max-h-20 w-auto" src={company.logo} alt={company.name} unoptimized />
                   </li>
                 ))}
               </ul>

@@ -58,30 +58,26 @@ function FeaturesMobile() {
 
 function FeaturesDesktop() {
   return (
-    <Tab.Group as="div" className="hidden lg:mt-20 lg:block">
-      {({ selectedIndex }) => (
-        <>
-          <Tab.List className="grid grid-cols-3 gap-x-8">
-            {features.map((feature, featureIndex) => (
-              <Feature
-                key={feature.summary}
-                feature={{
-                  ...feature,
-                  name: (
-                    <Tab className="[&:not(:focus-visible)]:focus:outline-none">
-                      <span className="absolute inset-0" />
-                      {feature.summary}
-                    </Tab>
-                  ),
-                }}
-                isActive={featureIndex === selectedIndex}
-                className="relative"
-              />
-            ))}
-          </Tab.List>
-        </>
-      )}
-    </Tab.Group>
+      <div className="hidden lg:mt-20 lg:block">
+        <ul className="grid grid-cols-3 gap-x-8">
+          {features.map((feature) => (
+              <li key={feature.summary}>
+                    <Feature
+                        feature={{
+                          ...feature,
+                          name: (
+                              <Tab className="[&:not(:focus-visible)]:focus:outline-none">
+                                <span className="absolute inset-0" />
+                                {feature.summary}
+                              </Tab>
+                          ),
+                        }}
+                        className="relative"
+                    />
+              </li>
+          ))}
+        </ul>
+      </div>
   )
 }
 
