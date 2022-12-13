@@ -51,7 +51,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="o nas"
+      aria-label="O nas"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image
@@ -67,7 +67,7 @@ export function PrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             Projekty realizowane przez naszych praktykantów
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
+          <p className="mt-6 text-lg tracking-tight text-white">
             Chcemy pokazać, jakie zadania i wyzwania stawiamy przed naszymi praktykantami oraz jakie umiejętności zdobywają dzięki pracy w naszej firmie.
           </p>
         </div>
@@ -96,7 +96,7 @@ export function PrimaryFeatures() {
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
                               ? 'text-blue-600 lg:text-white'
-                              : 'text-blue-100 hover:text-white lg:text-white'
+                              : 'text-white hover:text-white lg:text-white'
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
@@ -108,7 +108,7 @@ export function PrimaryFeatures() {
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
-                            : 'text-blue-100 group-hover:text-white'
+                            : 'text-white group-hover:text-white'
                         )}
                       >
                         {feature.description}
