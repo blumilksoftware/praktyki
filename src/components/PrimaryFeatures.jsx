@@ -51,7 +51,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="o nas"
+      aria-label="O nas"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
       <Image

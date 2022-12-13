@@ -85,7 +85,7 @@ export function SecondaryFeatures() {
   return (
     <section
       id="secondary-features"
-      aria-label="Features for simplifying everyday business tasks"
+      aria-label="Informacje o firmie Blumilk"
       className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
