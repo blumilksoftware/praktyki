@@ -31,6 +31,12 @@ docker-compose exec node npm run dev
 docker-compose exec node npm run build
 ```
 
+### Start production server
+
+```
+docker-compose exec node npm run start
+```
+
 ### Lints files
 
 ```
