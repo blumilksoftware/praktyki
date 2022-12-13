@@ -94,7 +94,7 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Strona główna" className="font-defaultSans">
-              <Image className="mr-3 h-12 w-auto"  src={Logo} alt="Blumilk logo" unoptimized />
+              <Image className="h-12 w-auto"  src={Logo} alt="Blumilk logo" unoptimized />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Projekty</NavLink>

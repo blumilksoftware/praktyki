@@ -26,7 +26,7 @@ const features = [
 function Feature({ feature, isActive, className, ...props }) {
   return (
     <div
-      className={clsx(className, !isActive && 'opacity-75 hover:opacity-100')}
+      className={clsx(className, 'opacity-80 hover:opacity-100')}
       {...props}
     >
       <div
@@ -48,7 +48,7 @@ function FeaturesMobile() {
   return (
     <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
       {features.map((feature) => (
-        <div key={feature.name}>
+        <div key={feature.summary}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
         </div>
       ))}
@@ -64,13 +64,13 @@ function FeaturesDesktop() {
           <Tab.List className="grid grid-cols-3 gap-x-8">
             {features.map((feature, featureIndex) => (
               <Feature
-                key={feature.name}
+                key={feature.summary}
                 feature={{
                   ...feature,
                   name: (
                     <Tab className="[&:not(:focus-visible)]:focus:outline-none">
                       <span className="absolute inset-0" />
-                      {feature.name}
+                      {feature.summary}
                     </Tab>
                   ),
                 }}
