@@ -43,8 +43,14 @@ docker-compose exec node npm run start
 docker-compose exec node npm run lint
 ```
 
+### Lints and fix files
+
+```
+docker-compose exec node npm run lintf
+```
+
 ### Available containers
 
 | service | container name | default external port |
-| ------- |----------------|-----------------------|
+|---------|----------------|-----------------------|
 | node    | praktyki-node  | 3000                  |

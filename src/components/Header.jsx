@@ -77,9 +77,9 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Projekty</MobileNavLink>
-            <MobileNavLink href="#secondary-features">O nas</MobileNavLink>
-            <MobileNavLink href="#testimonials">Opinie</MobileNavLink>
+            <MobileNavLink href="/#features">Projekty</MobileNavLink>
+            <MobileNavLink href="/#secondary-features">O nas</MobileNavLink>
+            <MobileNavLink href="/#testimonials">Opinie</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -93,13 +93,13 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Strona główna" className="font-defaultSans">
+            <Link href="/" aria-label="Strona główna" className="font-defaultSans">
               <Image className="h-12 w-auto"  src={Logo} alt="Blumilk logo" unoptimized />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Projekty</NavLink>
-              <NavLink href="#secondary-features">O nas</NavLink>
-              <NavLink href="#testimonials">Opinie</NavLink>
+              <NavLink href="/#features">Projekty</NavLink>
+              <NavLink href="/#secondary-features">O nas</NavLink>
+              <NavLink href="/#testimonials">Opinie</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
