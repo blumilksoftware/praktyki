@@ -26,8 +26,8 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Napisz e-mail do nas - wystarczy kilka słów o Tobie, CV i link do GitHuba, a na pewno się do Ciebie odezwiemy.
           </p>
-          <Button href="mailto:career@blumilk.pl" color="white" className="mt-10">
-            career@blumilk.pl
+          <Button href="mailto:praktyki@blumilk.pl" color="white" className="mt-10">
+            praktyki@blumilk.pl
           </Button>
         </div>
       </Container>

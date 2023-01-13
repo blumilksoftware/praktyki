@@ -81,7 +81,7 @@ export function Faqs() {
             Najczęściej zadawane pytania
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Jeśli nie możesz znaleźć tego, czego szukasz, napisz do nas na career@blumilk.pl.
+            Jeśli nie możesz znaleźć tego, czego szukasz, napisz do nas na praktyki@blumilk.pl.
           </p>
         </div>
         <ul
