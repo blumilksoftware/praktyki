@@ -8,12 +8,13 @@ import backgroundImage from '@/images/background-features.jpg'
 import screenshotMeetup from '@/images/screenshots/project-2.png'
 import screenshotInternships from '@/images/screenshots/project-1.png'
 import screenshotLaravelPolandMeetup from '@/images/screenshots/project-3.png'
+import screenshotEscooters from '@/images/screenshots/project-4.png'
 
 const features = [
   {
     title: 'Internships',
     description:
-      'Ten kto szukał praktyk studenckich ten wie, że jest to żmudne i trudne - ta aplikacja ma na celu przejrzyste pokazanie, gdzie są praktyki, a firmy mogą zakładać konta i dodawać oferty praktyk.',
+      'Ten kto szukał praktyk studenckich ten wie, że nie jest to łatwe zadanie - ta aplikacja ma na celu przejrzyste pokazanie, gdzie są praktyki, a firmy mogą zakładać konta i dodawać oferty praktyk.',
     image: screenshotInternships,
   },
   {
@@ -27,6 +28,12 @@ const features = [
     description:
       'Projekt, który nie jest tylko sztuką dla sztuki - strona internetowa dla najbardziej popularnego meetupu o PHP i Laravelu - brzmi jak wyzwanie, któremu nasi praktykanci podołali w 100% ;)',
     image: screenshotLaravelPolandMeetup,
+  },
+  {
+    title: 'E-scooters',
+    description:
+        'E-scooters to aplikacja, gdzie w jednym miejscu można znaleźć dostępnych dostawców hulajnóg elektrycznych (i nie tylko) w miastach na całym świecie.',
+    image: screenshotEscooters,
   },
 ]
 

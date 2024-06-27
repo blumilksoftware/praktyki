@@ -7,68 +7,89 @@ import avatarImage3 from '@/images/avatars/avatar-3.jpg'
 import avatarImage4 from '@/images/avatars/avatar-4.jpeg'
 import avatarImage5 from '@/images/avatars/avatar-5.jpeg'
 import avatarImage6 from '@/images/avatars/avatar-6.jpeg'
+import avatarImage7 from '@/images/avatars/avatar-7.jpg'
+import avatarImage8 from '@/images/avatars/avatar-8.png'
 
 const testimonials = [
-  [
-    {
-      content:
-        'Praktyki były dla mnie cennym doświadczeniem. Poznałem różne technologie i narzędzia, a także zdobyłem doświadczenie w pracy w zespole. Co więcej, po praktykach dostałem pracę w Blumilku i jestem z tego powodu bardzo zadowolony :)',
-      author: {
-        name: 'Michał Myśków',
-        role: 'luty - lipiec 2022',
-        image: avatarImage2,
+    [
+      {
+        content:
+            'Moje doświadczenie w Blumilku pokazało, jak może wyglądać wzorcowe miejsce pracy. Panowała tam spokojna atmosfera, a pracownicy byli zawsze gotowi do pomocy, gdy tylko było to potrzebne. Zadania, które nam powierzano, były ambitne, ale osiągalne, przez co musiałem wyjść ze swojej strefy komfortu. Praktyki w Blumilku dały mi nowe spojrzenie na funkcjonowanie frameworków. Nauczyłem się nie tylko, jak ich używać, ale także jak je zrozumieć na głębszym poziomie. To doświadczenie było niezwykle wartościowe i wzbogaciło moje umiejętności oraz wiedzę.',
+        author: {
+          name: 'Jakub Kermes',
+          role: 'czerwiec 2024 - lipiec 2024',
+          image: avatarImage8,
+        },
       },
-    },
-    {
-      content:
-        'Praca w zespole była bardzo inspirująca i pozwoliła mi zrozumieć, jak ważne jest wsparcie i współpraca w tej branży. Poszerzyłam wiedzę z zakresu programowania, co na pewno przyda mi się w przyszłości - zarówno na studiach jak i w pracy.',
-      author: {
-        name: 'Aleksandra Kozubal',
-        role: 'czerwiec 2022',
-        image: avatarImage5,
+      {
+        content:
+            'Atmosfera w firmie była bardzo przyjazna i luźna, co sprawiało, że z przyjemnością chodziłem tam codziennie. Wraz z innymi praktykantami tworzyliśmy aplikację do meetupów. Wiele się nauczyłem, a w szczególności frontendu.',
+        author: {
+          name: 'Jakub Zakowicz',
+          role: 'maj 2022 - lipiec 2022',
+          image: avatarImage4,
+        },
       },
-    },
-  ],
-  [
-    {
-      content:
-        'Dzięki temu, że miałem możliwość pracować nad ciekawym projektem, nauczyłem się wielu nowych rzeczy i poszerzyłem swoje horyzonty na tyle, że dostałem swoją pierwszą pracę jako frontend developer w innej firmie.',
-      author: {
-        name: 'Łukasz Podlipski',
-        role: 'lipiec 2021',
-        image: avatarImage1,
+
+    ],
+    [
+      {
+        content:
+            'Praktyki w Blumilku były dla mnie niezwykle wartościowym doświadczeniem. Dzięki nim nauczyłem się, jak pracować z Dockerem. Poznałem również kilka przydatnych bibliotek, które pozwalają mi na szybsze rozwiązywanie typowych problemów i tworzenie bardziej zaawansowanych rozwiązań. Gorąco polecam praktyki w Blumilku każdemu, kto chce się nauczyć bycia web developerem.',
+        author: {
+          name: 'Piotr Fedak',
+          role: 'czerwiec 2023 - lipiec 2023',
+          image: avatarImage7,
+        },
       },
-    },
-    {
-      content:
-        'Spędziłem trzy miesiące na praktykach w Blumilku i było to dla mnie niesamowite doświadczenie. Pracowałem w zespole z innymi programistami i czułem, że wnoszę realny wkład w rozwój firmy. Pracownicy byli bardzo otwarci i zawsze chętnie dzielili się swoją wiedzą. Jestem bardzo szczęśliwy, że dostałem pracę po tych praktykach.',
-      author: {
-        name: 'Dawid Rudnik',
-        role: 'maj 2021 - lipiec 2021',
-        image: avatarImage3,
+      {
+        content:
+            'Praca w zespole była bardzo inspirująca i pozwoliła mi zrozumieć, jak ważne jest wsparcie i współpraca w tej branży. Poszerzyłam wiedzę z zakresu programowania, co na pewno przyda mi się w przyszłości - zarówno na studiach jak i w pracy.',
+        author: {
+          name: 'Aleksandra Kozubal',
+          role: 'czerwiec 2022',
+          image: avatarImage5,
+        },
       },
-    },
-  ],
-  [
-    {
-      content:
-        'Moje praktyki w firmie programistycznej były bardzo intensywne i wymagające. Musiałam pracować w grupie i nauczyć się współpracować z innymi. Poznałam nowe narzędzia oraz technologie.',
-      author: {
-        name: 'Paulina Lencka',
-        role: 'lipiec 2021',
-        image: avatarImage6,
+      {
+        content:
+            'Dzięki temu, że miałem możliwość pracować nad ciekawym projektem, nauczyłem się wielu nowych rzeczy i poszerzyłem swoje horyzonty na tyle, że dostałem swoją pierwszą pracę jako frontend developer w innej firmie.',
+        author: {
+          name: 'Łukasz Podlipski',
+          role: 'lipiec 2021',
+          image: avatarImage1,
+        },
       },
-    },
-    {
-      content:
-        'Atmosfera w firmie była bardzo przyjazna i luźna, co sprawiało, że z przyjemnością chodziłem tam codziennie. Wraz z innymi praktykantami tworzyliśmy aplikację do meetupów. Wiele się nauczyłem, a w szczególności frontendu.',
-      author: {
-        name: 'Jakub Zakowicz',
-        role: 'maj 2022 - lipiec 2022',
-        image: avatarImage4,
+    ],
+    [
+      {
+        content:
+            'Praktyki były dla mnie cennym doświadczeniem. Poznałem różne technologie i narzędzia, a także zdobyłem doświadczenie w pracy w zespole. Co więcej, po praktykach dostałem pracę w Blumilku i jestem z tego powodu bardzo zadowolony :)',
+        author: {
+          name: 'Michał Myśków',
+          role: 'luty - lipiec 2022',
+          image: avatarImage2,
+        },
       },
-    },
-  ],
+      {
+        content:
+            'Spędziłem trzy miesiące na praktykach w Blumilku i było to dla mnie niesamowite doświadczenie. Pracowałem w zespole z innymi programistami i czułem, że wnoszę realny wkład w rozwój firmy. Pracownicy byli bardzo otwarci i zawsze chętnie dzielili się swoją wiedzą. Jestem bardzo szczęśliwy, że dostałem pracę po tych praktykach.',
+        author: {
+          name: 'Dawid Rudnik',
+          role: 'maj 2021 - lipiec 2021',
+          image: avatarImage3,
+        },
+      },
+      {
+        content:
+            'Moje praktyki w firmie programistycznej były bardzo intensywne i wymagające. Musiałam pracować w grupie i nauczyć się współpracować z innymi. Poznałam nowe narzędzia oraz technologie.',
+        author: {
+          name: 'Paulina Lencka',
+          role: 'lipiec 2021',
+          image: avatarImage6,
+        },
+      },
+    ],
 ]
 
 function QuoteIcon(props) {
