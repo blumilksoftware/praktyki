@@ -51,15 +51,6 @@ const testimonials = [
           image: avatarImage5,
         },
       },
-      {
-        content:
-            'Dzięki temu, że miałem możliwość pracować nad ciekawym projektem, nauczyłem się wielu nowych rzeczy i poszerzyłem swoje horyzonty na tyle, że dostałem swoją pierwszą pracę jako frontend developer w innej firmie.',
-        author: {
-          name: 'Łukasz Podlipski',
-          role: 'lipiec 2021',
-          image: avatarImage1,
-        },
-      },
     ],
     [
       {
@@ -82,11 +73,11 @@ const testimonials = [
       },
       {
         content:
-            'Moje praktyki w firmie programistycznej były bardzo intensywne i wymagające. Musiałam pracować w grupie i nauczyć się współpracować z innymi. Poznałam nowe narzędzia oraz technologie.',
+            'Dzięki temu, że miałem możliwość pracować nad ciekawym projektem, nauczyłem się wielu nowych rzeczy i poszerzyłem swoje horyzonty na tyle, że dostałem swoją pierwszą pracę jako frontend developer w innej firmie.',
         author: {
-          name: 'Paulina Lencka',
+          name: 'Łukasz Podlipski',
           role: 'lipiec 2021',
-          image: avatarImage6,
+          image: avatarImage1,
         },
       },
     ],
