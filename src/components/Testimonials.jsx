@@ -6,7 +6,6 @@ import avatarImage2 from '@/images/avatars/avatar-2.jpeg'
 import avatarImage3 from '@/images/avatars/avatar-3.jpg'
 import avatarImage4 from '@/images/avatars/avatar-4.jpeg'
 import avatarImage5 from '@/images/avatars/avatar-5.jpeg'
-import avatarImage6 from '@/images/avatars/avatar-6.jpeg'
 import avatarImage7 from '@/images/avatars/avatar-7.jpg'
 import avatarImage8 from '@/images/avatars/avatar-8.png'
 
