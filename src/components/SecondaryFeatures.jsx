@@ -8,7 +8,7 @@ const features = [
     summary:
       'Krótko o nas',
     description:
-        'Nasza firma zatrudnia wykwalifikowanych inżynierów z bogatym doświadczeniem w branży. Nasi pracownicy to prawdziwi pasjonaci, którzy zawsze dają z siebie 100% i chętnie wspierają się nawzajem. Prezesem jest dr inż. Piotr Nadybski, profesor Collegium Witelona Uczelnia Państwowa, którego wiedza i doświadczenie, w połączeniu z kompetencjami zespołu, gwarantują najwyższą jakość usług.',
+        'Nasza firma zatrudnia wykwalifikowanych inżynierów z ogromnym doświadczeniem w branży. Nasi pracownicy to prawdziwi pasjonaci, którzy zawsze dają z siebie 100% i chętnie wspierają się nawzajem. Prezesem jest dr inż. Piotr Nadybski, profesor Collegium Witelona Uczelnia Państwowa, którego wiedza i doświadczenie, w połączeniu z kompetencjami zespołu, gwarantują najwyższą jakość usług.',
   },
   {
     summary: 'Czym się zajmujemy na co dzień?',
