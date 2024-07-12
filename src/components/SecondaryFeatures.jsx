@@ -8,7 +8,7 @@ const features = [
     summary:
       'Krótko o nas',
     description:
-      'Nasza firma zatrudnia wykwalifikowanych inżynierów, którzy posiadają ogromne doświadczenie w branży. Nasi pracownicy są pasjonatami swojej pracy, dzięki czemu zawsze dają z siebie 100% i chętnie wzajemnie sobie pomagają. Nasz prezes, pan Piotr Nadybski, posiada stopień naukowy doktora i jest profesorem na CWUP. Jego wiedza i doświadczenie w połączeniu z kompetencjami naszych inżynierów gwarantują wysoką jakość świadczonych przez nas usług. Dzięki temu nasza firma cieszy się zaufaniem i uznaniem wśród naszych klientów.',
+        'Nasza firma zatrudnia wykwalifikowanych inżynierów z bogatym doświadczeniem w branży. Nasi pracownicy to prawdziwi pasjonaci, którzy zawsze dają z siebie 100% i chętnie wspierają się nawzajem. Prezesem jest dr Piotr Nadybski, profesor CWUP, którego wiedza i doświadczenie, w połączeniu z kompetencjami zespołu, gwarantują najwyższą jakość usług. Dzięki temu firma cieszy się zaufaniem i uznaniem wśród klientów.',
   },
   {
     summary: 'Czym się zajmujemy na co dzień?',
