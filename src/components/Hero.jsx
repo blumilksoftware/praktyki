@@ -4,7 +4,8 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoCWUP from '@/images/logos/cwup.png'
 import logoCDV from '@/images/logos/cdv.svg'
-import logoWSB from '@/images/logos/wsb.png'
+import logoMerito from '@/images/logos/merito.png'
+import logoCopernicus from '@/images/logos/copernicus.png'
 import logoTA from '@/images/logos/ta.png'
 export function Hero() {
   return (
@@ -50,8 +51,9 @@ export function Hero() {
           {[
             [
               { name: 'CWUP', logo: logoCWUP },
-              { name: 'WSB', logo: logoWSB },
+              { name: 'Merito', logo: logoMerito },
               { name: 'CDV', logo: logoCDV },
+              { name: 'Copernicus', logo: logoCopernicus },
               { name: 'Ta', logo: logoTA },
             ],
           ].map((group, groupIndex) => (
