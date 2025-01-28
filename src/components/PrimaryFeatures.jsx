@@ -4,12 +4,12 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-features.jpg'
-import screenshotMeetup from '@/images/screenshots/project-2.png'
-import screenshotInternships from '@/images/screenshots/project-1.png'
-import screenshotLaravelPolandMeetup from '@/images/screenshots/project-3.png'
-import screenshotEscooters from '@/images/screenshots/project-4.png'
-import screenshotQuiz from '@/images/screenshots/project-5.png'
+import backgroundImage from '@/images/background-features.webp'
+import screenshotMeetup from '@/images/screenshots/project-2.webp'
+import screenshotInternships from '@/images/screenshots/project-1.webp'
+import screenshotLaravelPolandMeetup from '@/images/screenshots/project-3.webp'
+import screenshotEscooters from '@/images/screenshots/project-4.webp'
+import screenshotQuiz from '@/images/screenshots/project-5.webp'
 
 const features = [
   {

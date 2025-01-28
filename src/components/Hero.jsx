@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoCWUP from '@/images/logos/cwup.png'
-import logoCDV from '@/images/logos/cdv.svg'
-import logoMerito from '@/images/logos/merito.png'
-import logoCopernicus from '@/images/logos/copernicus.png'
-import logoTA from '@/images/logos/ta.png'
+import logoCWUP from '@/images/logos/cwup.webp'
+import logoCDV from '@/images/logos/cdv.webp'
+import logoMerito from '@/images/logos/merito.webp'
+import logoCopernicus from '@/images/logos/copernicus.webp'
+import logoTA from '@/images/logos/ta.webp'
 export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
