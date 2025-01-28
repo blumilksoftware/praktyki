@@ -46,7 +46,7 @@ const faqs = [
     {
       question: 'Kiedy mogę aplikować na praktyki?',
       answer:
-        'Rekrutacja jest otwarta przez cały rok.',
+        'Możesz napisać do nas w każdej chwili – zawsze chętnie odpowiadamy na zgłoszenia! Jednak rekrutację na praktyki prowadzimy głównie na przełomie stycznia i lutego. W tym roku czekamy na Twój e-mail do 03.02.2025.',
     },
     {
       question:
