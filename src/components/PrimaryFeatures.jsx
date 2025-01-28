@@ -9,6 +9,7 @@ import screenshotMeetup from '@/images/screenshots/project-2.png'
 import screenshotInternships from '@/images/screenshots/project-1.png'
 import screenshotLaravelPolandMeetup from '@/images/screenshots/project-3.png'
 import screenshotEscooters from '@/images/screenshots/project-4.png'
+import screenshotQuiz from '@/images/screenshots/project-5.png'
 
 const features = [
   {
@@ -34,6 +35,12 @@ const features = [
     description:
         'E-scooters to aplikacja, gdzie w jednym miejscu można znaleźć dostępnych dostawców hulajnóg elektrycznych (i nie tylko) w miastach na całym świecie.',
     image: screenshotEscooters,
+  },
+  {
+    title: 'Quiz',
+    description:
+        'Aplikacja do przeprowadzania konkursów w formie quizów, umożliwiająca tworzenie i zarządzanie pytaniami oraz automatycznie tworzenie rankingów.',
+    image: screenshotQuiz,
   },
 ]
 
