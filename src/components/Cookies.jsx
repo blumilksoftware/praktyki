@@ -17,19 +17,19 @@ export function Cookies() {
         <div className="container mx-auto flex flex-col items-center justify-center px-6 py-4 text-center lg:flex-row lg:py-0 lg:text-left">
           <div className="md:flex-1">
             <div>
-              <h3 className="mt-4 mb-1 text-lg font-bold text-slate-600">
+              <h3 className="mb-1 mt-4 text-lg font-bold text-slate-600">
                 Czym są pliki cookies?
               </h3>
               <div className="text-slate-700">
                 Pliki cookies inaczej &quot;ciasteczka&quot; to małe pliki wysyłane przez stronę, którą odwiedzasz i zapisywane na twoim urządzeniu końcowym (komputerze, laptopie, smartfonie).
               </div>
-              <h3 className="mt-4 mb-1 text-lg font-bold text-slate-600">
+              <h3 className="mb-1 mt-4 text-lg font-bold text-slate-600">
                 Dlaczego używamy ciasteczek?
               </h3>
               <div className="text-slate-700">
                 Stosujemy pliki cookies w celach szacunkowych, aby poznać ilość użytkowników odwiedzających naszą stronę internetową. Te dane umożliwiają nam analizę, a co za tym idzie stały rozwój strony. W tym celu korzystamy także z &quot;Google Analytics&quot;. Co istotne &quot;Google Analytics&quot; zapisuje tylko adres IP przypisany do Ciebie w dniu wizyty na tej stronie, a nie Twoje imię i nazwisko lub inne informacje umożliwiające identyfikację. Szczegóły dotyczące działania &quot;Google Analytics&quot; znajdziesz pod adresem policies.google.com/privacy oraz google.com/analytics/terms.
               </div>
-              <h3 className="mt-4 mb-1 text-lg font-bold text-slate-600">
+              <h3 className="mb-1 mt-4 text-lg font-bold text-slate-600">
                 Masz pytania?
               </h3>
               <div className="text-slate-700">
