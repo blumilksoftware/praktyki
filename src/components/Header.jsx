@@ -20,7 +20,7 @@ function MobileNavIcon({ open }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
+      className="size-3.5 overflow-visible stroke-slate-700"
       fill="none"
       strokeWidth={2}
       strokeLinecap="round"
@@ -47,7 +47,7 @@ function MobileNavigation() {
   return (
     <Popover>
       <Popover.Button
-        className="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
+        className="relative z-10 flex size-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
         aria-label="Przełącz nawigację"
       >
         {({ open }) => <MobileNavIcon open={open} />}

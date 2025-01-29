@@ -17,7 +17,7 @@ export function PersonalDataController() {
         <div className="container mx-auto flex flex-col items-center justify-center px-6 py-4 text-center lg:flex-row lg:py-0 lg:text-left">
           <div className="md:flex-1">
             <div>
-              <h3 className="mt-4 mb-1 text-lg font-bold text-slate-600">
+              <h3 className="mb-1 mt-4 text-lg font-bold text-slate-600">
                 Administrator danych osobowych
               </h3>
               <div className="text-slate-700">
