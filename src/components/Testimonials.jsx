@@ -1,13 +1,13 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.jpeg'
-import avatarImage2 from '@/images/avatars/avatar-2.jpeg'
-import avatarImage3 from '@/images/avatars/avatar-3.jpg'
-import avatarImage4 from '@/images/avatars/avatar-4.jpeg'
-import avatarImage5 from '@/images/avatars/avatar-5.jpeg'
-import avatarImage7 from '@/images/avatars/avatar-7.jpg'
-import avatarImage8 from '@/images/avatars/avatar-8.png'
+import avatarImage1 from '@/images/avatars/avatar-1.webp'
+import avatarImage2 from '@/images/avatars/avatar-2.webp'
+import avatarImage3 from '@/images/avatars/avatar-3.webp'
+import avatarImage4 from '@/images/avatars/avatar-4.webp'
+import avatarImage5 from '@/images/avatars/avatar-5.webp'
+import avatarImage7 from '@/images/avatars/avatar-7.webp'
+import avatarImage8 from '@/images/avatars/avatar-8.webp'
 
 const testimonials = [
     [

@@ -4,7 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import Logo from '@/images/logos/blumilk.png'
+import Logo from '@/images/logos/blumilk.webp'
 import { NavLink } from '@/components/NavLink'
 import Image from 'next/image'
 
