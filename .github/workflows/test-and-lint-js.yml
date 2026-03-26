@@ -7,27 +7,29 @@ on:
     paths:
       - '**.jsx'
       - 'package.json'
-      - 'package.lock'
+      - 'package-lock.json'
 
 jobs:
   test-and-lint-js:
     name: Test & lint JS codebase
     timeout-minutes: 10
     if: github.event.pull_request.draft == false
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
 
       - name: Cache dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         with:
           path: node_modules
-          key: ${{ runner.os }}-npm-dependencies-${{ hashFiles('package.lock') }}
+          key: ${{ runner.os }}-npm-dependencies-${{ hashFiles('package-lock.json') }}
           restore-keys: ${{ runner.os }}-npm-dependencies
 
       - name: Set up node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 23
 

@@ -7,13 +7,15 @@ on:
 jobs:
   deploy:
     name: Deploying website to GitHub Pages
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
 
       - name: Cache node modules
-        uses: actions/cache@v3
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         env:
           cache-name: cache-node-modules
         with:
@@ -31,7 +33,7 @@ jobs:
           touch out/.nojekyll
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4.8.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: public
